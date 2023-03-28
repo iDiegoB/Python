@@ -1,0 +1,3 @@
+Nombre: pedro
+telefono: 777
+categoria: a
