@@ -14,7 +14,7 @@ class Contacto:
 
 
 def app():
-    # Revisa si la carpeta existe
+    # ! Revisa si la carpeta existe
     crear_directorio()
 
     # Preguntar al usuario la accion a realizar
@@ -48,7 +48,7 @@ def app():
 
 def crear_directorio():
     if not os.path.exists(CARPETA):
-        # Crea la carpeta donde se almacenará los contactos
+        # !Crea la carpeta donde se almacenará los contactos
         os.makedirs(CARPETA)
     # else:
     #    print('La carpeta ya existe')
@@ -65,7 +65,7 @@ def mostrar_menu():
 
 
 def existe_contacto(nombre_contacto):
-    # Revisar si el archivo existe
+    # !Revisar si el archivo existe
     return os.path.isfile(CARPETA + nombre_contacto + EXTENSION)
 
 
@@ -130,7 +130,7 @@ def mostrar_contactos():
     for archivo in archivos_txt:
         with open(CARPETA + archivo) as contacto:
             for linea in contacto:
-                #Imprime contenidos
+                # !Imprime contenidos
                 print(linea.rstrip())
             #imprime un separador entre contactos
             print('\r\n')
