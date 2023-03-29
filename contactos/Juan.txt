@@ -1,0 +1,3 @@
+Nombre: Juan
+telefono: 123
+categoria: cliente
