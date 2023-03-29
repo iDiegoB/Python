@@ -1,0 +1,3 @@
+Nombre: Pedro
+telefono: 888
+categoria: Jefe
