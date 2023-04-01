@@ -1,0 +1,3 @@
+Nombre: Benjamin
+telefono: 777
+categoria: cliente
