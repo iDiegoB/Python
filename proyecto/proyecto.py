@@ -118,7 +118,7 @@ def editar_contacto():
 def mostrar_contactos():
     archivos = os.listdir(CARPETA)
     archivos_txt = [i for i in archivos if i.endswith(EXTENSION)]
-    
+    print('\nContactos: ')
     for archivo in archivos_txt:
         with open(CARPETA + archivo) as contacto:
             for linea in contacto:

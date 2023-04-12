@@ -1,0 +1,3 @@
+Nombre: Carlos
+telefono: 133
+categoria: Cliente
